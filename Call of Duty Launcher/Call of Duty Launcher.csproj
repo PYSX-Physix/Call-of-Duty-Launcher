@@ -1,0 +1,171 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\Gunnars-Laptop\Users\lolat\Desktop\COD_Launcher\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\Gunnars-Laptop\Users\lolat\Desktop\COD_Launcher\</InstallUrl>
+    <UpdateUrl>\\Gunnars-Laptop\Users\lolat\Desktop\COD_Launcher\</UpdateUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F749AD44116DB66337C1ACC3651C4D93A9CAE69D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Call of Duty Launcher_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CallofDutyLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Images\Game_Backgrounds\AW_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\BO1_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\BO2_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\BO3_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\BOCW_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\COD2.jpg" />
+    <Resource Include="Images\Game_Backgrounds\Ghosts_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\IW_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\MW1R_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\MW2_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\MW3_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\MWIII_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\MW_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\VG_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\WaW_COD.jpg" />
+    <Resource Include="Images\Game_Backgrounds\WWII_COD.jpg" />
+	<Resource Include="Images\Game_Backgrounds\MW19_COD.jpg" />
+
+    <None Remove="Images\Game_Backgrounds\AW_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\BO1_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\BO2_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\BO3_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\BOCW_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\COD2.jpg" />
+    <None Remove="Images\Game_Backgrounds\Ghosts_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\IW_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\MW1R_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\MW2_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\MW3_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\MWIII_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\MW_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\VG_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\WaW_COD.jpg" />
+    <None Remove="Images\Game_Backgrounds\WWII_COD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.IO.Compression" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CoD_Font.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CallofDutyLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Arrow_Down.gif" />
+    <Resource Include="Images\CallofDutyLogo.ico" />
+    <Resource Include="Images\CoD Logo WT Dark.png" />
+    <Resource Include="Images\CoD Logo.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2003_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2004_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2005_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2007_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2008_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2009_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2010_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2011_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2012_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2013_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2014_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2015_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2016_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2017_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2019_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2020_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2021_Backsplash.png" />
+    <Resource Include="Images\Game_Backgrounds\CoD_2022_Backsplash.png" />
+    <Resource Include="Images\Game_Icons\5-24-ghost-hub-hero-desktop.jpg" />
+    <Resource Include="Images\Game_Icons\CoD_1_Icon.png" />
+    <Resource Include="Images\News_Images\MWIII-REVEAL-BLANKCANVAS-001.jpg" />
+    <Resource Include="Images\News_Images\newsimg_00000001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Button\Links\" />
+    <Folder Include="Images\Game_Icons\Logos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="GithubICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Game_Backgrounds\CoD_2023_Backsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\MWIII-MODERNIZING-MULTIPLAYER-MAPS-001.jpg" />
+    <Resource Include="Images\Maps\MWIII-MODERNIZING-MULTIPLAYER-MAPS-010.jpg" />
+    <Resource Include="Images\Maps\MWIII-MODERNIZING-MULTIPLAYER-MAPS-011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\MWIII-MODERNIZING-MULTIPLAYER-MAPS-015.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\MWIII-MODERNIZING-MULTIPLAYER-MAPS-007.jpg" />
+    <Resource Include="Images\Maps\MWIII-MODERNIZING-MULTIPLAYER-MAPS-012.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Images\CoD_Logo_Splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maps\Preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <AppxPackage>false</AppxPackage>
+  </PropertyGroup>
+</Project>
